@@ -16,11 +16,11 @@ open a second terminal and run the command:
 
   ```roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping```
 
-  RViz will start. After running the code in https://github.com/Cornell-Tech-Turtlebot/turtlebot3-simulations/tree/eva RViz
-  will show the resulting map. To save the map, run the following command on a separate window:
+  RViz will start. After running the code in https://github.com/Cornell-Tech-Turtlebot/turtlebot3-simulations/tree/eva to
+  get the Turtlebot3 moving, RViz will show the resulting map. To save it, run the following command on a separate window:
   
-  ```rosrun map_server map_saver -f ~/map  ```r
+  ```rosrun map_server map_saver -f ~/map  ```
   
 ## Demo
 
-A demo video together with the resulting SLAM map can be found in https://github.com/Cornell-Tech-Turtlebot/turtlebot3-simulations/tree/eva.
+A demo can be found in https://github.com/Cornell-Tech-Turtlebot/turtlebot3-simulations/tree/eva.
